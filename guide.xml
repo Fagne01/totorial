@@ -1,19 +1,70 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version  V3.2.0.0 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
-  <channel id="Animal Planet">
-    <display-name lang="pt">Animal Planet</display-name>
-    <url>http://www.meuguia.tv</url>
-  </channel>
-  <channel id="Arte 1">
-    <display-name lang="pt">Arte 1</display-name>
-    <url>http://www.clarotv.com.br</url>
-  </channel>
-  <channel id="AXN">
-    <display-name lang="pt">AXN</display-name>
-    <url>http://www.netcombo.com.br</url>
-  </channel>
-  <channel id="AMC">
-    <display-name lang="pt">AMC</display-name>
-    <url>http://www.clarotv.com.br</url>
-  </channel>
-</tv>
+[        ] 
+[        ]            WebGrab+Plus/w MDB & REX Postprocess -- version  V3.2.0.0            
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]             thanks to Paul Weterings and all the contributing users             
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 27/04/2022 13:10:33
+[  Debug ] 
+[  Debug ] Running  on: Microsoft Windows NT 6.2.9200.0
+[  Debug ] Environment: 4.0.30319.42000
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: timezone.timezonesdata.txt
+[  Debug ] Reading config file: C:\Users\FAGNO\AppData\Local\WebGrab+Plus\WebGrab++.config.xml
+[  Info  ] Checking License ..
+[  Info  ] For License request/update data, see WGLicense.log.txt
+[  Debug ] 
+[  Info  ] found: C:\Users\FAGNO\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\meuguia.tv.ini -- Revision 05
+[  Debug ] 
+[  Info  ] found: C:\Users\FAGNO\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\clarotv.com.br.ini -- Revision 03
+[  Info  ] encrypted in 'new (V3)' mode
+[Warning ] License 'default' can not decrypt this siteini !!
+[Warning ] Consult WGLicense.log.txt for detail of the various license options
+[Warning ] clarotv.com.br.EK skipped
+[  Debug ] 
+[  Info  ] found: C:\Users\FAGNO\AppData\Local\WebGrab+Plus\siteini.pack\Brazil\netcombo.com.br.ini -- Revision 02
+[  Info  ] encrypted in 'new (V3)' mode
+[Warning ] License 'default' can not decrypt this siteini !!
+[Warning ] Consult WGLicense.log.txt for detail of the various license options
+[Warning ] netcombo.com.br skipped
+[  Info  ] input file C:\Users\FAGNO\AppData\Local\WebGrab+Plus\guide.xml not found   ... created a new one ... 
+[  Info  ] 
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Info  ] 
+[  Info  ] Group (0) :
+[  Info  ] update requested for - 4 - out of - 4 - channels for 3 day(s)
+[  Debug ] 
+[  Info  ] (   1/4   ) MEUGUIA.TV -- chan. (xmltv_id=Animal Planet) -- mode Force
+[Warning ] 
+[Warning ]   !! -- WARNING : meuguia.tv doesn't allow epg grabbing !!
+[Warning ] it is advised to disable this channel / site from your channel list
+[Warning ] 
+[Error   ] Unable to update channel Animal Planet
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from Animal Planet
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
+[  Info  ] 
+[  Info  ] (   1/4   ) CLAROTV.COM.BR -- chan. (xmltv_id=Arte 1) -- skipped --> encrypted SiteIni
+[  Info  ] 
+[  Info  ] 
+[  Info  ] (   2/4   ) NETCOMBO.COM.BR -- chan. (xmltv_id=AXN) -- skipped --> encrypted SiteIni
+[  Info  ] 
+[  Info  ] 
+[  Info  ] (   3/4   ) CLAROTV.COM.BR -- chan. (xmltv_id=AMC) -- skipped --> encrypted SiteIni
+[  Info  ] 
+[  Debug ] 
+[  Debug ] 0 shows in 4 channels
+[  Debug ] 0 updated shows
+[  Debug ] 0 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 27/04/2022 13:10:36 done in 2s
